@@ -1,0 +1,58 @@
+# Dans le terminal, à la racine de ton projet
+cat > .gitignore << 'EOF'
+# Secrets
+.env
+.env.local
+.env.production
+*.env
+keys/
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+build/
+.next/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Gradle (Android)
+.gradle/
+build/
+
+# Python
+.anaconda/
+.conda/
+.cache/
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Autres
+.docker/
+.oracle_jre_usage/
+.rediscli_history
+.m2/
+*.zip
+*.exe
+*.tar
+EOF
