@@ -33,7 +33,7 @@ const Portfolio = () => {
     description: "Complete food delivery platform with ordering system, payment integration using Stripe, and real-time order tracking.",
     technologies: ["React.js", "MongoDB", "Express", "Node.js", "Stripe"],
     image: "/placeholder.svg",
-    github: "https://github.com/fatmaabchouk/Full-Stack-Food-Delivery-Website-In-React-JS-MongoDB-Express-Node-JS-Stripe",
+    github: "https://github.com/Fatmaabchouk/-Full-Stack-Food-Delivery-Website-In-React-JS-MongoDB-Express-Node-JS-Stripe",
     highlights: ["Payment integration", "Order tracking", "Full MERN stack"]
   }, {
     title: "Cosmetic Product E-Commerce",
@@ -49,7 +49,7 @@ const Portfolio = () => {
     description: "Fresh products delivery website with email notifications and file upload capabilities. Complete ordering and delivery platform.",
     technologies: ["JavaScript", "Node.js", "XAMPP", "MySQL", "Express.js", "Nodemailer", "Multer"],
     image: "/placeholder.svg",
-    github: "https://github.com/fatmaabchouk/Koffa-Fresh-Products-Delivery-Website-",
+    github: "https://github.com/Fatmaabchouk/-Koffa-Fresh-Products-Delivery-Website-",
     highlights: ["Email notifications", "File uploads", "Order management"]
   }, {
     title: "Client Management System",
@@ -65,7 +65,7 @@ const Portfolio = () => {
     description: "Complete website design for Koffa fresh products delivery platform, creating an intuitive ordering experience.",
     technologies: ["Figma"],
     image: "/placeholder.svg",
-    github: "https://github.com/fatmaabchouk/Koffa-Website-Design-in-Figma-",
+    github: "https://github.com/Fatmaabchouk/-Koffa-Website-Design-in-Figma-",
     highlights: ["User-friendly", "Complete design system", "Responsive layout"]
   }, {
     title: "Koffa Mobile App Design",

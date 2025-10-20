@@ -18,8 +18,8 @@ const Contact = () => {
   const contactInfo = [{
     icon: Mail,
     label: "Email",
-    value: "fatma.abchouk@example.com",
-    href: "mailto:fatma.abchouk@example.com"
+    value: "abchoukfatma18@example.com",
+    href: "mailto:abchoukfatma18@example.com"
   }, {
     icon: Phone,
     label: "Phone",
@@ -77,21 +77,21 @@ const Contact = () => {
                     <label htmlFor="name" className="block text-sm font-medium mb-2">
                       Your Name
                     </label>
-                    <Input id="name" name="name" value={formData.name} onChange={handleChange} placeholder="John Doe" required />
+                    <Input id="name" name="name" value={formData.name} onChange={handleChange} placeholder="nom " required />
                   </div>
 
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium mb-2">
                       Email Address
                     </label>
-                    <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} placeholder="john@example.com" required />
+                    <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} placeholder="nom@gmail.com" required />
                   </div>
 
                   <div>
                     <label htmlFor="subject" className="block text-sm font-medium mb-2">
                       Subject
                     </label>
-                    <Input id="subject" name="subject" value={formData.subject} onChange={handleChange} placeholder="Project Inquiry" required />
+                    <Input id="subject" name="subject" value={formData.subject} onChange={handleChange} placeholder="....." required />
                   </div>
 
                   <div>
